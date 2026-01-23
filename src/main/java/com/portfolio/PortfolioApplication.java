@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 public class PortfolioApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.SDF(PortfolioApplication.class, args);
+		SpringApplication.run(PortfolioApplication.class, args);
 	}
 	
 	@Bean
