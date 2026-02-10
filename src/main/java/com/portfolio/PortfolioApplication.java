@@ -8,11 +8,9 @@ import org.springframework.context.annotation.Bean;
 #starting point
 @SpringBootApplication
 public class PortfolioApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(PortfolioApplication.class, args);
 	}
-	
 	@Bean
 	public ModelMapper getModelMapper() {
 		return new ModelMapper();
